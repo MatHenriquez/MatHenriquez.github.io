@@ -1,19 +1,18 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: '',
+  title: 'MH.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  name: 'Matías Henríquez',
+  role: 'FullStack Web Developer',
+  description:'👋 Greetings! I am a fullstack web developer and I offer high quality services in the area of programming with JavaScript, HTML, CSS, React, NodeJs and PostgreSQL. I stand out for my fast logical problem solving and my passion for constant learning, as well as my ease to work in a team. Currently, I am seeking employment in the area of web development for companies of all sizes.',
+  resume: 'https://drive.google.com/drive/u/0/folders/1ZBoQYurw5oLhenXBXXiLLXpA_8VqUM1h',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/matias-henriquez-dev/',
+    github: 'https://github.com/MatHenriquez',
   },
 }
 
@@ -21,29 +20,29 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'PetBook',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A web application for pet adoption.',
+    stack: ['React', 'JavaScript', 'Tailwind', 'Node', 'PostgreSQL'],
+    sourceCode: 'https://github.com/MatHenriquez/Proyecto_Final_PetBook',
+    livePreview: 'proyecto-final-pet-book.vercel.app',
   },
   {
-    name: 'Project 2',
+    name: 'Pokedex',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'This website simulates a pokedez from the famous Pokemon animated series.',
+    stack: ['React', 'JavaScript', 'Node', 'PostgreSQL'],
+    sourceCode: 'https://github.com/MatHenriquez/Proyecto_Individual',
+    livePreview: 'https://front-pi-nine.vercel.app/',
   },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+  // {
+  //   name: 'Project 3',
+  //   description:
+  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+  //   stack: ['SASS', 'TypeScript', 'React'],
+  //   sourceCode: 'https://github.com',
+  //   livePreview: 'https://github.com',
+  // },
 ]
 
 const skills = [
@@ -52,20 +51,20 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
+  'Next',
   'Redux',
   'SASS',
-  'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Node',
+  'Express',
+  'Sequelize',
+  'PostgreSQL'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'matias.henriquez.dev@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
