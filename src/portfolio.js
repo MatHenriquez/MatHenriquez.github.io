@@ -30,10 +30,10 @@ const projects = [
   {
     name: 'Pokedex',
     description:
-      'This website simulates a pokedez from the famous Pokemon animated series.',
+      'This website simulates a pokedex from the famous Pokemon animated series.',
     stack: ['React', 'JavaScript', 'Node', 'PostgreSQL'],
     sourceCode: 'https://github.com/MatHenriquez/Proyecto_Individual',
-    livePreview: 'https://front-pi-nine.vercel.app/',
+    livePreview: 'https://proyecto-individual-eight.vercel.app/',
   },
   // {
   //   name: 'Project 3',
