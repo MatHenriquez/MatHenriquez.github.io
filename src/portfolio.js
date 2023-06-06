@@ -25,7 +25,7 @@ const projects = [
       'A web application for pet adoption.',
     stack: ['React', 'JavaScript', 'Tailwind', 'Node', 'PostgreSQL'],
     sourceCode: 'https://github.com/MatHenriquez/Proyecto_Final_PetBook',
-    livePreview: 'https://proyecto-final-pet-book.vercel.app/',
+    // livePreview: 'https://proyecto-final-pet-book.vercel.app/',
   },
   {
     name: 'Pokedex',
