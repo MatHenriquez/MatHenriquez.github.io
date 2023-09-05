@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Matías Henríquez',
   role: 'FullStack Web Developer',
-  description:'👋 Greetings! I am a fullstack web developer and I offer high quality services in the area of programming with JavaScript, HTML, CSS, React, NodeJs and PostgreSQL. I stand out for my fast logical problem solving and my passion for constant learning, as well as my ease to work in a team. Currently, I am seeking employment in the area of web development for companies of all sizes.',
+  description:'👋 Greetings! I am a fullstack web developer and I offer high quality services in the area of programming with JavaScript, Vue, NodeJs, PostgreSQL and MongoDB. I stand out for my fast logical problem solving and my passion for constant learning, as well as my ease to work in a team. Currently, I am seeking employment in the area of web development for companies of all sizes.',
   resume: 'https://drive.google.com/file/d/1WqtQVzPSr5ffExuUILjq-z4PBmpRE2lM/view?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/matias-henriquez-dev/',
@@ -23,7 +23,7 @@ const projects = [
     name: 'EducApp',
     description:
       'University platform for online education',
-    stack: ['Vue', 'JavaScript', 'Node', 'PostgreSQL'],
+    stack: ['Vue', 'JavaScript', 'Node', 'MongoDB'],
     // sourceCode: 'https://github.com/MatHenriquez/Proyecto_Individual',
     // livePreview: 'https://proyecto-individual-eight.vercel.app/',
   },
@@ -35,14 +35,14 @@ const projects = [
     sourceCode: 'https://github.com/MatHenriquez/Proyecto_Final_PetBook',
     // livePreview: 'https://petbook.vercel.app/',
   },
-  // {
-  //   name: 'Project 3',
-  //   description:
-  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-  //   stack: ['SASS', 'TypeScript', 'React'],
-  //   sourceCode: 'https://github.com',
-  //   livePreview: 'https://github.com',
-  // },
+  {
+    name: 'ElectroHome',
+    description:
+      'Home appliance repair trade API',
+    stack: ['Node', 'Express', 'MySQL', 'Prisma'],
+    sourceCode: 'https://github.com/JereGomez/electrodomesticos/tree/main',
+    // livePreview: 'https://github.com',
+  },
 ]
 
 const skills = [
@@ -51,15 +51,16 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'React',
-  'Next',
-  'Redux',
-  'SASS',
+  'Vue',
+  // 'Next',
+  // 'Redux',
+  // 'SASS',
   'Git',
   'Node',
   'Express',
-  'Sequelize',
-  'PostgreSQL'
+  // 'Sequelize',
+  'PostgreSQL',
+  'MongoDB'
 ]
 
 const contact = {
