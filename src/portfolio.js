@@ -9,7 +9,7 @@ const about = {
   name: 'Matías Henríquez',
   role: 'FullStack Web Developer',
   description:'👋 Greetings! I am a fullstack web developer and I offer high quality services in the area of programming with JavaScript, HTML, CSS, React, NodeJs and PostgreSQL. I stand out for my fast logical problem solving and my passion for constant learning, as well as my ease to work in a team. Currently, I am seeking employment in the area of web development for companies of all sizes.',
-  resume: 'https://drive.google.com/drive/u/0/folders/1ZBoQYurw5oLhenXBXXiLLXpA_8VqUM1h',
+  resume: 'https://drive.google.com/file/d/1WqtQVzPSr5ffExuUILjq-z4PBmpRE2lM/view?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/matias-henriquez-dev/',
     github: 'https://github.com/MatHenriquez',
@@ -20,19 +20,20 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'EducApp',
+    description:
+      'University platform for online education',
+    stack: ['Vue', 'JavaScript', 'Node', 'PostgreSQL'],
+    // sourceCode: 'https://github.com/MatHenriquez/Proyecto_Individual',
+    // livePreview: 'https://proyecto-individual-eight.vercel.app/',
+  },
+  {
     name: 'PetBook',
     description:
       'A web application for pet adoption.',
-    stack: ['React', 'JavaScript', 'Tailwind', 'Node', 'PostgreSQL'],
+    stack: ['Vue', 'JavaScript', 'Tailwind', 'Node', 'PostgreSQL'],
     sourceCode: 'https://github.com/MatHenriquez/Proyecto_Final_PetBook',
-  },
-  {
-    name: 'Pokedex',
-    description:
-      'This website simulates a pokedex from the famous Pokemon animated series.',
-    stack: ['React', 'JavaScript', 'Node', 'PostgreSQL'],
-    sourceCode: 'https://github.com/MatHenriquez/Proyecto_Individual',
-    livePreview: 'https://proyecto-individual-eight.vercel.app/',
+    // livePreview: 'https://petbook.vercel.app/',
   },
   // {
   //   name: 'Project 3',
