@@ -25,7 +25,7 @@ const projects = [
       'University platform for online education',
     stack: ['JavaScript', 'Node', 'Mongoose', 'MongoDB'],
     // sourceCode: 'https://github.com/MatHenriquez/Proyecto_Individual',
-    // livePreview: 'https://proyecto-individual-eight.vercel.app/',
+    livePreview: 'https://educapp-two.vercel.app/',
   },
   {
     name: 'PetBook',
@@ -33,7 +33,7 @@ const projects = [
       'A web application for pet adoption.',
     stack: ['JavaScript', 'Node', 'Sequelize', 'PostgreSQL'],
     sourceCode: 'https://github.com/MatHenriquez/Proyecto_Final_PetBook',
-    // livePreview: 'https://petbook.vercel.app/',
+    livePreview: 'https://petbook.vercel.app/',
   },
   {
     name: 'ElectroRepair',
@@ -41,7 +41,7 @@ const projects = [
       'Home appliance repair trade API',
     stack: ['Node', 'Express', 'MySQL', 'Prisma'],
     sourceCode: 'https://github.com/JereGomez/electrodomesticos/tree/main',
-    // livePreview: 'https://github.com',
+    livePreview: 'http://electrorepair.com.ar/',
   },
 ]
 
