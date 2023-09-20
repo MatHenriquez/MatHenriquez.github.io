@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Matías Henríquez',
-  role: 'FullStack Web Developer',
+  role: 'Back-End Web Developer',
   description:'👋 Greetings! I am a fullstack web developer and I offer high quality services in the area of programming with JavaScript, Vue, NodeJs, PostgreSQL and MongoDB. I stand out for my fast logical problem solving and my passion for constant learning, as well as my ease to work in a team. Currently, I am seeking employment in the area of web development for companies of all sizes.',
-  resume: 'https://drive.google.com/file/d/1WqtQVzPSr5ffExuUILjq-z4PBmpRE2lM/view?usp=drive_link',
+  resume: 'https://drive.google.com/file/d/1ZL3utr-n2Gd7oZT6vXvqH1l5hfP0IkDQ/view?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/matias-henriquez-dev/',
     github: 'https://github.com/MatHenriquez',
@@ -23,7 +23,7 @@ const projects = [
     name: 'EducApp',
     description:
       'University platform for online education',
-    stack: ['Vue', 'JavaScript', 'Node', 'MongoDB'],
+    stack: ['JavaScript', 'Node', 'Mongoose', 'MongoDB'],
     // sourceCode: 'https://github.com/MatHenriquez/Proyecto_Individual',
     // livePreview: 'https://proyecto-individual-eight.vercel.app/',
   },
@@ -31,12 +31,12 @@ const projects = [
     name: 'PetBook',
     description:
       'A web application for pet adoption.',
-    stack: ['Vue', 'JavaScript', 'Tailwind', 'Node', 'PostgreSQL'],
+    stack: ['JavaScript', 'Node', 'Sequelize', 'PostgreSQL'],
     sourceCode: 'https://github.com/MatHenriquez/Proyecto_Final_PetBook',
     // livePreview: 'https://petbook.vercel.app/',
   },
   {
-    name: 'ElectroHome',
+    name: 'ElectroRepair',
     description:
       'Home appliance repair trade API',
     stack: ['Node', 'Express', 'MySQL', 'Prisma'],
@@ -51,13 +51,14 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'Vue',
+  'React',
   // 'Next',
   // 'Redux',
   // 'SASS',
   'Git',
   'Node',
   'Express',
+  'C#',
   // 'Sequelize',
   'PostgreSQL',
   'MongoDB'
