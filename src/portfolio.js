@@ -9,7 +9,7 @@ const about = {
   name: 'Matías Henríquez',
   role: 'Back-End Web Developer',
   description:'👋 Greetings! I am a fullstack web developer and I offer high quality services in the area of programming with JavaScript, Vue, NodeJs, PostgreSQL and MongoDB. I stand out for my fast logical problem solving and my passion for constant learning, as well as my ease to work in a team. Currently, I am seeking employment in the area of web development for companies of all sizes.',
-  resume: 'https://drive.google.com/file/d/1ZL3utr-n2Gd7oZT6vXvqH1l5hfP0IkDQ/view?usp=drive_link',
+  resume: 'https://drive.google.com/file/d/1Ej00azAx4Ff87n9-nJBi3nFvcw9bAEPB/view?usp=drive_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/matias-henriquez-dev/',
     github: 'https://github.com/MatHenriquez',
